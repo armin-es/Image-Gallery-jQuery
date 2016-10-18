@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/armin-es/Image-Gallery-jQuery#readme",
   "devDependencies": {
+    "bootstrap": "^3.3.7",
     "docjs": "0.0.1",
     "grunt": "^1.0.1",
     "grunt-contrib-concat": "^1.0.1",
