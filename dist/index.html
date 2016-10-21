@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Basic image gallery using jQuery">
+        <meta name="keywords" content="image, photo, picture, gallery, jQuery">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image gallery using jQuery</title>
+        <!-- TODO: add icon --> 
+
+        <link rel="stylesheet" href="dist/css/style.min.js"/>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <h1>Photos</h1>
+            <div class="row">
+                <div class="col-md-1">
+                    <button id="backward" class="btn btn-default">&lt;</button>
+                </div>
+                <div class="col-md-3">
+                    <img id="gal-col-1" class="crop-img" src="img/gallery_1.jpg" alt="1"/>
+                </div>
+                <div class="col-md-3">
+                    <img id="gal-col-2" class="crop-img" src="img/gallery_2.jpg" alt="2"/>
+                </div>
+                <div class="col-md-3">
+                    <img id="gal-col-3" class="crop-img" src="img/gallery_3.jpg" alt="3"/>
+                </div>
+                <div class="col-md-1">
+                    <button id="forward" class="btn btn-default">&gt;</button>
+                </div>
+            </div> <!-- / row -->
+            <div class="row">
+                <div class="col-md-12">
+                    <img id="bigImg" class="large-img center-block" src="img/gallery_1.jpg" alt=""/>
+                </div>
+            </div> <!-- / row -->
+        </div><!-- / container -->
+
+    <script src="dist/js/script.min.js"></script>
+    </body>
+</html>
