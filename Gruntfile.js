@@ -66,11 +66,11 @@ module.exports = function(grunt) {
             },
             css: {
                 files: ['app/css/*.*'],
-                tasks: ['concat: css', 'cssmin']
+                tasks: ['concat:css', 'cssmin']
             },
             js: {
                 files: ['app/js/*.*'],
-                tasks: ['jshint', 'concat: js' ,'uglify']
+                tasks: ['jshint', 'concat:js' ,'uglify']
             },
             img: {
                 files: ['app/img/*.*'],
