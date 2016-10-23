@@ -1,9 +1,18 @@
+/**
+* @author Armin
+* @description Large image is shown when thumbnail is clicked
+*/
 $(".crop-img").click(function(){
     $("#bigImg").attr('src',
         $(this).attr('src'));
 });
 
 var counter = 1;
+
+/**
+* @author Armin
+* @description Scrolls to the right of image gallery
+*/
 $("#forward").click(function(){
     if(counter < 4){
         counter = counter + 1;
@@ -17,6 +26,10 @@ $("#forward").click(function(){
     }
 });
 
+/**
+* @author Armin
+* @description Scrolls to the left of image gallery
+*/
 $("#backward").click(function(){
     if(counter > 1){
         counter = counter - 1;
