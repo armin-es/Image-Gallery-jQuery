@@ -1,6 +1,7 @@
 /**
+* Large image is shown when thumbnail is clicked
 * @author Armin
-* @description Large image is shown when thumbnail is clicked
+* @name bigImg
 */
 $(".crop-img").click(function(){
     $("#bigImg").attr('src',
@@ -10,8 +11,9 @@ $(".crop-img").click(function(){
 var counter = 1;
 
 /**
+* Scrolls right in image gallery
 * @author Armin
-* @description Scrolls to the right of image gallery
+* @name scrollRight
 */
 $("#forward").click(function(){
     if(counter < 4){
@@ -27,8 +29,9 @@ $("#forward").click(function(){
 });
 
 /**
+* Scrolls left in image gallery
 * @author Armin
-* @description Scrolls to the left of image gallery
+* @name scrollLeft
 */
 $("#backward").click(function(){
     if(counter > 1){
