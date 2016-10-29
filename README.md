@@ -29,4 +29,6 @@ You can find the documentations for the JavaScript/jQuery functions under the 'o
 ##Demo
 (to be added)
 
+## License
 
+The contents of this repository are covered under the [MIT License](LICENSE.txt).
