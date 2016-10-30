@@ -1,8 +1,19 @@
+
+/**
+* Large image is shown when thumbnail is clicked
+* @author Armin
+* @name bigImg
+*/
 $(".crop-img").click(function(){
     $("#bigImg").attr('src',
         $(this).attr('src'));
 });
 
+/**
+* Scrolls right in image gallery
+* @author Armin
+* @name scrollRight
+*/
 var counter = 1;
 $("#forward").click(function(){
     if(counter < 4){
@@ -16,7 +27,11 @@ $("#forward").click(function(){
         $("#gal-col-3").attr('src',"./img/gallery_"+col3+".jpg");
     }
 });
-
+/**
+* Scrolls left in image gallery
+* @author Armin
+* @name scrollLeft
+*/
 $("#backward").click(function(){
     if(counter > 1){
         counter = counter - 1;
