@@ -27,7 +27,7 @@ This project is based on the second peer reviewed assignment of the [Responsive 
 You can find the documentations for the JavaScript/jQuery functions under the 'out' folder
 
 ##Demo
-(to be added)
+![Demo gif](https://github.com/armin-es/Image-Gallery-jQuery/blob/master/gif/demo.gif)
 
 ## License
 
